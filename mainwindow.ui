@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>647</width>
+    <height>627</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="SEL_Press">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>480</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Press</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SEL_Hold">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>480</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hold</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SEL_Release">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>480</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Release</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_IsSettingClock">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>92</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Clock</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_IsSettingBrightness">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>150</y>
+      <width>92</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Brightness</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="levelBrightness">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>180</y>
+      <width>160</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_Clock_Hour">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>47</y>
+      <width>21</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>15</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>480</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SEL</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>520</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SET</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SET_Press">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>510</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Press</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SET_Release">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>510</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Release</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SET_Hold">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>510</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hold</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbOpenSetting">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Disable</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SEL_SET_Hold">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>550</y>
+      <width>351</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>HOLD SET_SEL</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_IsSettingLanguage">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>200</y>
+      <width>92</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Language</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_IsSettingLanguage_VN">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>230</y>
+      <width>92</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>VN</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cb_IsSettingLanguage_EN">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>250</y>
+      <width>92</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>EN</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_Clock_Day">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>50</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_Clock_Minute">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>50</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>40</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_Clock_Month">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>50</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_Clock_Year">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>50</y>
+      <width>41</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2025</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>647</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
